@@ -1,0 +1,30 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "rules": {
+        "indent": [
+            "error",
+            "tab" // "tab" or "space"
+        ],
+        "linebreak-style": [
+            "error",
+            "windows" // "windows" or "unix"
+        ],
+        "quotes": [
+            "error",
+            "single" // "single" or "double"
+        ],
+        "semi": [
+            "error",
+            "always" // "always" or "never"
+        ]
+    }
+}
